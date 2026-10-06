@@ -1,0 +1,118 @@
+:root {
+  /* Luxury Color Palette */
+  
+  /* Primary Colors */
+  --color-ivory: #FDF8F3;
+  --color-warm-cream: #F5EDE4;
+  --color-champagne: #F0E6D8;
+  --color-antique-gold: #8F7349;
+  --color-muted-gold: #735C38;
+  
+  /* Accent Colors */
+  --color-burgundy: #722F37;
+  --color-deep-burgundy: #5A252C;
+  --color-charcoal: #2C2C2C;
+  --color-dark-charcoal: #1A1A1A;
+  
+  /* Neutral Colors */
+  --color-soft-beige: #E8DDD2;
+  --color-light-beige: #F0EBE4;
+  --color-medium-beige: #D4C9BC;
+  --color-warm-gray: #8B8680;
+  --color-cool-gray: #6B6661;
+  
+  /* UI Colors */
+  --color-white: #FFFFFF;
+  --color-off-white: #FFFEFA;
+  --color-black: #000000;
+  --color-border: #D4C9BC;
+  --color-border-light: #E8DDD2;
+  
+  /* Text Colors */
+  --text-primary: #2C2C2C;
+  --text-secondary: #6B6661;
+  --text-muted: #8B8680;
+  --text-light: #D4C9BC;
+  --text-on-dark: #FDF8F3;
+  
+  /* Background Colors */
+  --bg-primary: #FDF8F3;
+  --bg-secondary: #F5EDE4;
+  --bg-tertiary: #F0E6D8;
+  --bg-dark: #1A1A1A;
+  --bg-card: #FFFFFF;
+  
+  /* Brand Colors */
+  --brand-primary: #8F7349;
+  --brand-secondary: #6E2E38;
+  --brand-accent: #735C38;
+  
+  /* Spacing Scale */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
+  --space-6xl: 10rem;
+  
+  /* Typography Scale */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 3.75rem;
+  --font-size-7xl: 4.5rem;
+  
+  /* Border Radius */
+  --radius-none: 0;
+  --radius-sm: 0.125rem;
+  --radius-md: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-full: 9999px;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  
+  /* Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-base: 250ms ease-in-out;
+  --transition-slow: 350ms ease-in-out;
+  --transition-slower: 500ms ease-in-out;
+  
+  /* Z-Index Scale */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal-backdrop: 400;
+  --z-modal: 500;
+  --z-popover: 600;
+  --z-tooltip: 700;
+  
+  /* Container Widths */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+  --container-2xl: 1536px;
+  
+  /* Header Heights */
+  --header-height: 80px;
+  --header-height-scrolled: 70px;
+  --announcement-bar-height: 36px;
+  --header-offset: calc(var(--announcement-bar-height) + var(--header-height));
+}
